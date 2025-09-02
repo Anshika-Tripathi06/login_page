@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_page</title>
+    <style>
+        .A{
+            width:30%;
+            height:600px;
+            background-image: linear-gradient(to bottom right,red,yellow);
+            border-radius: 10px;
+            margin-left: 450px;
+            margin-top: 70px;
+        }
+        .A h2{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            font-size: 30px;
+            padding-top: 30px;
+        }
+        .i{
+            width: 250px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+
+        }
+        form{
+            margin-left: 5px;
+            margin-top: 30px;
+        }
+        .btn{
+            width: 100px;
+            height:30px;
+        }
+
+    </style>
+</head>
+<body>
+    <script>
+        function displaysmessage()
+         { alert("welcome to my login page..");
+            
+        }
+    </script>
+    <div class="A">
+    <h2>Login Page</h2><hr>
+    <form>
+       <p> Name: <input type="text" placeholder="first name" class="i"><br><br>
+        Last name: <input type="text" placeholder="last name" class="i"><br><br>
+       Father's name: <input type="text" placeholder="father's name" class="i"><br><br>
+    <fieldset>
+       <legend>Gender:</legend><br>
+        <input type="radio" name="g">Male<br>
+        <input type="radio" name="g">Female
+        <input type="radio" name="g">others
+    </fieldset><br><br>
+        Date of birth: <input type="date" id="birth_date"><br><br>
+        Create password: <input type="password" placeholder="create password" class="i"><br><br>
+        Confirm password: <input type="password" placeholder="confirm password" class="i"><br><br>
+        <input type="submit" class="btn">
+        <input type="reset" class="btn">
+        </p>
+    </form>
+    </div>/.A
+</body>
+</html>
